@@ -5,8 +5,8 @@ function cb(value1,value2) {
     console.log(value2);
 }
 
-function requestJSON(cb) {
-    request('https://api.wheretheiss.at/v1/satellites/25544', function(err, result) {
+function requestJSON(cb,input) {
+ request(input, function(err, result) {
         if (err) {
             console.log(err);
         }
@@ -19,7 +19,7 @@ function requestJSON(cb) {
                 cb(error);
             }
         }
-    });
+    }); 
 }
 
-exports.requestJSON = requestJSON();
+module.exports.requestJSON = requestJSON;

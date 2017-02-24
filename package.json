@@ -1,0 +1,26 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "my first json package",
+  "main": "request-as-json.js",
+  "dependencies": {
+    "request": "^2.75.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroncnk/node-workshop-2.git"
+  },
+  "keywords": [
+    "new"
+  ],
+  "author": "Yaron Cohen <yaroncnk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaroncnk/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/yaroncnk/node-workshop-2#readme"
+}
